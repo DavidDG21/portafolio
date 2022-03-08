@@ -1,187 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
 			integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
 			crossorigin="anonymous"
 			referrerpolicy="no-referrer"
 		/>
-    <link rel="stylesheet" href="./assets/main.css">
-</head>
-<body>
+		<link rel="stylesheet" href="./assets/main.css" />
+	</head>
+	<body>
+		<header class="header">
+			<nav class="nav">
+				<a href="/" class="logo">logo</a>
+				<!--para el logo -->
+				<button class="button-bars" id="button-bars">
+					<i class="fa-solid fa-bars"></i>
+				</button>
+				<ul class="menu" id="menu">
+					<li class="menu-item">
+						<a href="#mis-habilidades" class="menu-item-link"
+							>Mis habilidades</a
+						>
+					</li>
+					<li class="menu-item">
+						<a href="#trabajos" class="menu-item-link">Trabajos</a>
+					</li>
+					<li class="menu-item">
+						<a href="#sobremi" class="menu-item-link">Sobre mí</a>
+					</li>
+					<li class="menu-item">
+						<a href="#contactame" class="menu-item-link">Contactame</a>
+					</li>
 
-    <header class="header">
-        <nav class="nav">
-             <a href="/" class="logo">logo</a> <!--para el logo -->
-             <button class="button-bars" id="button-bars">
-                <i class="fa-solid fa-bars"></i>
-             </button>
-             <ul class="menu" id="menu">
-                 <li class="menu-item">
-                     <a href="#mis-habilidades" class="menu-item-link">Mis habilidades</a>
-                 </li>
-                 <li class="menu-item">
-                    <a href="#trabajos" class="menu-item-link">Trabajos</a>
-                </li>
-                <li class="menu-item">
-                    <a href="#sobremi" class="menu-item-link">Sobre mí</a>
-                </li>
-                <li class="menu-item">
-                    <a href="#contactame" class="menu-item-link">Contactame</a>
-                </li>
+					<div class="icons-menu">
+						<i class="fa-brands fa-whatsapp icon-menu-social"></i>
+						<i class="fa-brands fa-facebook icon-menu-social"></i>
+						<i class="fa-brands fa-youtube icon-menu-social"></i>
+						<i class="fa-brands fa-github icon-menu-social"></i>
+					</div>
+				</ul>
+			</nav>
+		</header>
 
-                <div class="icons-menu">
-                    <i class="fa-brands fa-whatsapp icon-menu-social"></i>
-                    <i class="fa-brands fa-facebook icon-menu-social"></i>
-                    <i class="fa-brands fa-youtube icon-menu-social"></i>
-                    <i class="fa-brands fa-github icon-menu-social"></i>
-                </div>
+		<main class="main">
+			<section class="section-principal">
+				<div class="hero-image">
+					<div class="hero-blur"></div>
+					<h1>
+						Hola <br />
+						bienvenido
+					</h1>
 
-             </ul>
-        </nav>
-    </header>
+					<figure>
+						<img
+							src="https://cdn.pixabay.com/photo/2020/05/17/20/21/cat-5183427__340.jpg"
+							alt="imagen-photo"
+							class="imagen-personal"
+						/>
+					</figure>
+				</div>
 
-    <main class="main">
-
-        <section class="section-principal">
-            <h1 class="card-tittle">
-                Hola <br> bienvenido
-            </h1>
-
-            <!-- <figure>
+				<!-- <figure>
                 <img src="./assets/images/imagen-3.jpg" alt="image-winter" class="image-winter">
             </figure> -->
 
-            <figure>
-                <img src="./assets/images/imagen-photo.jpg" alt="imagen-photo" class="imagen-personal">
-            </figure>
+				<h2 class="Name-principal">
+					Wilber David <br />
+					Durand Gonzales
+				</h2>
 
-            <h2 class="Name-principal">
-                Wilber David <br> Durand Gonzales 
-            </h2>
+				<p class="personal-description">
+					Estudiante universitario <br />
+					$ <br />
+					futuro developer
+				</p>
 
-            <p class="personal-description">
-                Estudiante universitario <br> $ <br> futuro developer
-            </p>
+				<div class="button-mode">
+					<p class="description-mode">nigth mode</p>
+					<i class="fa-solid fa-moon moon"></i>
+				</div>
+			</section>
 
-            <div class="button-mode">
-                <p class="description-mode">
-                    nigth mode
-                </p>
-                <i class="fa-solid fa-moon moon"></i>
-            </div>
-        </section>
+			<section class="Card-habilidades" id="mis-habilidades">
+				<h1 class="tittle-habilidades">Mis habilidades</h1>
+				<p class="description-habilidades">
+					A lo largo de mi formación he adquirido conocimientos en las
+					diferentes tecnologias que actualmente se encuentran en el mercado
+					laboral, actualmente tengo un nivel basico.
+				</p>
 
-        <section class="Card-habilidades" id="mis-habilidades">
-            <h1 class="tittle-habilidades">Mis habilidades</h1>
-            <p class="description-habilidades">
-                A lo largo de mi formación he adquirido conocimientos en las diferentes tecnologias que actualmente se encuentran en el mercado laboral, actualmente tengo un nivel basico.
-            </p>
+				<article class="Galery-language">
+					<div class="card-icon-principal html">
+						<div class="icon-html">
+							<a
+								href="https://developer.mozilla.org/es/docs/Glossary/HTML5"
+								target="_blank"
+								class="rombo"
+							>
+								<i class="fa-brands fa-html5 icon-technologies"></i>
+							</a>
+						</div>
+						<p class="name-technologies">HTML</p>
+					</div>
+					<div class="card-icon-principal css">
+						<div class="icon-css">
+							<a
+								href="https://developer.mozilla.org/es/docs/Glossary/HTML5"
+								class="rombo"
+							>
+								<i class="fa-brands fa-css3-alt icon-technologies"></i>
+							</a>
+						</div>
+						<p class="name-technologies">CSS</p>
+					</div>
 
-            <article class="Galery-language">
-               
-                <div class="card-icon-principal html">
-                    <div class="icon-html">
-                        <a href="https://developer.mozilla.org/es/docs/Glossary/HTML5" target="_blank" class="rombo">
-                            <i class="fa-brands fa-html5 icon-technologies"></i>
-                        </a>
-                    </div>
-                    <p class="name-technologies">HTML</p>
-                </div>
-                <div class="card-icon-principal css">
-                    <div class="icon-css">
-                        <a href="https://developer.mozilla.org/es/docs/Glossary/HTML5" class="rombo">
-                            <i class="fa-brands fa-css3-alt icon-technologies"></i>
-                        </a>
-                    </div>
-                    <p class="name-technologies">CSS</p>
-                </div>
+					<div class="card-icon-principal JavaScript">
+						<div class="icon-javascript">
+							<a
+								href="https://developer.mozilla.org/es/docs/Glossary/HTML5"
+								class="rombo"
+							>
+								<i class="fa-brands fa-js icon-technologies"></i>
+							</a>
+						</div>
+						<p class="name-technologies">JavaScript</p>
+					</div>
 
-                <div class="card-icon-principal JavaScript">
-                    <div class="icon-javascript">
-                        <a href="https://developer.mozilla.org/es/docs/Glossary/HTML5" class="rombo">
-                            <i class="fa-brands fa-js icon-technologies"></i>
-                        </a>
-                    </div>
-                    <p class="name-technologies">JavaScript</p>
-                </div>
-                
-                <div class="card-icon-principal Github">
-                    <div class="icon-github">
-                        <a href="https://developer.mozilla.org/es/docs/Glossary/HTML5" class="rombo">
-                            <i class="fa-brands fa-github icon-technologies"></i>
-                        </a>
-                    </div>
-                    <p class="name-technologies">GITHUB</p>
-                </div>
-            </article>
-        </section>
+					<div class="card-icon-principal Github">
+						<div class="icon-github">
+							<a
+								href="https://developer.mozilla.org/es/docs/Glossary/HTML5"
+								class="rombo"
+							>
+								<i class="fa-brands fa-github icon-technologies"></i>
+							</a>
+						</div>
+						<p class="name-technologies">GITHUB</p>
+					</div>
+				</article>
+			</section>
 
-        <section class="Trabajos">
-            <h1 class="Tittle-trabajo">Mis trabajos</h1>
-            <p class="description-trabajo">
-                He realizado diversos trabajos que me fueron útiles para poder  desarrollarme como developer,  he realizado trabajos individuales como colaborativos, en este apartado tendras los enlaces para visitar mi repositorio alojado en Git y poder visualizar a mas detalle mis trabajos.
-            </p>
+			<section class="Trabajos">
+				<h1 class="Tittle-trabajo">Mis trabajos</h1>
+				<p class="description-trabajo">
+					He realizado diversos trabajos que me fueron útiles para poder
+					desarrollarme como developer, he realizado trabajos individuales como
+					colaborativos, en este apartado tendras los enlaces para visitar mi
+					repositorio alojado en Git y poder visualizar a mas detalle mis
+					trabajos.
+				</p>
+			</section>
 
+			<section class="sobre-mi" id="sobremi">
+				<h1 class="title-sobremi">Sobre mí</h1>
+				<p class="description-sobremi">
+					Me gusta trabajar en equipo, aprender habilidades que otros dominan y
+					apoyarnos mutuamente,en mi formacion siempre me han inculcado el
+					respeto y ser empático, evaluando todo ello, resalto mis habilidades
+					blandas.
+				</p>
+				<article class="cualidadesblandas">
+					<div class="cualidades">
+						<i class="fa-solid fa-check"></i>
+						<p class="description-cualidades">Soy responsable</p>
+					</div>
+					<div class="cualidades">
+						<i class="fa-solid fa-check"></i>
+						<p class="description-cualidades">Me gusta ser productivo</p>
+					</div>
+					<div class="cualidades">
+						<i class="fa-solid fa-check"></i>
+						<p class="description-cualidades">Me adapto a los cambios</p>
+					</div>
+					<div class="cualidades">
+						<i class="fa-solid fa-check"></i>
+						<p class="description-cualidades">Facilidad de trabajo en equipo</p>
+					</div>
+					<div class="cualidades">
+						<i class="fa-solid fa-check"></i>
+						<p class="description-cualidades">Evaluo con pensamiento crítico</p>
+					</div>
+					<div class="cualidades">
+						<i class="fa-solid fa-check"></i>
+						<p class="description-cualidades">Trabajo bajo presion</p>
+					</div>
+				</article>
+			</section>
+		</main>
 
-        </section>
+		<footer class="card-contactame">
+			<h1 class="tittle-contactame">contáctame</h1>
+			<p class="description-contactame">
+				Si quieres comunicarte por alguna duda o por cual sea el motivo, no
+				dudes en comunicarte conmigo, dejo a disposición los medios para
+				comunicarnos como tambien mis redes sociales donde estare compatiendo
+				momentos personales.
+			</p>
+			<div class="footer-icons">
+				<i class="fa-brands fa-whatsapp icons-contactame"></i>
+				<i class="fa-brands fa-youtube icons-contactame"></i>
+				<i class="fa-brands fa-github icons-contactame"></i>
+				<i class="fa-brands fa-facebook icons-contactame"></i>
+			</div>
 
-        <section class="sobre-mi">
-            <h1 class="title-sobremi">Sobre mí</h1>
-            <p class="description-sobremi">
-                Me gusta trabajar en equipo, aprender habilidades que otros dominan  y apoyarnos mutuamente,en mi formacion siempre me han inculcado el respeto y ser empático, evaluando todo ello, resalto mis habilidades blandas.
-            </p>
-            <article class="cualidadesblandas">
-                <div class="cualidades">
-                    <i class="fa-solid fa-check"></i>
-                    <p class="description-cualidades">Soy responsable</p>
-                </div>
-                <div class="cualidades">
-                    <i class="fa-solid fa-check"></i>
-                    <p class="description-cualidades">Me gusta ser productivo</p>
-                </div>
-                <div class="cualidades">
-                    <i class="fa-solid fa-check"></i>
-                    <p class="description-cualidades">Me adapto a los cambios</p>
-                </div>
-                <div class="cualidades">
-                    <i class="fa-solid fa-check"></i>
-                    <p class="description-cualidades">Facilidad de trabajo en equipo</p>
-                </div>
-                <div class="cualidades">
-                    <i class="fa-solid fa-check"></i>
-                    <p class="description-cualidades">Evaluo con pensamiento crítico</p>
-                </div>
-                <div class="cualidades">
-                    <i class="fa-solid fa-check"></i>
-                    <p class="description-cualidades">Trabajo bajo presion</p>
-                </div>
-            </article>
-        </section>
-
-    </main>
-
-    <footer class="card-contactame">
-        <h1 class="tittle-contactame">contáctame</h1>
-        <p class="description-contactame">Si quieres comunicarte por alguna duda o por cual sea el motivo, no dudes en comunicarte conmigo, dejo  a disposición los medios para comunicarnos como tambien mis redes sociales  donde estare compatiendo momentos personales. </p>
-        <div class="footer-icons">
-            <i class="fa-brands fa-whatsapp icons-contactame"></i>
-            <i class="fa-brands fa-youtube icons-contactame"></i>
-            <i class="fa-brands fa-github icons-contactame"></i>
-            <i class="fa-brands fa-facebook icons-contactame"></i>
-        </div>
-
-        <div class="copy">
-            <p class="copy-description">Copyright 2022 <i class="fa-solid fa-copyright"></i> Wilber David</p>
-        </div>
-    </footer>
-    
-</body>
-    <script src="./assets/main.js"></script>
+			<div class="copy">
+				<p class="copy-description">
+					Copyright 2022 <i class="fa-solid fa-copyright"></i> Wilber David
+				</p>
+			</div>
+		</footer>
+	</body>
+	<script src="./assets/main.js"></script>
 </html>
