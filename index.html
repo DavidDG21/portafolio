@@ -12,17 +12,28 @@
 			crossorigin="anonymous"
 			referrerpolicy="no-referrer"
 		/>
-    <link rel="stylesheet" href="./assets/main.css">
+    <link rel="stylesheet" href="./assets/CSS/main.css">
 </head>
+
 <body>
 
+    <div id="particles-js"></div>
+
     <header class="header">
+
+        
+        <a href="/" class="logo"> wilber David</a>
         <nav class="nav">
-             <a href="/" class="logo">logo</a> <!--para el logo -->
+         
              <button class="button-bars" id="button-bars">
                 <i class="fa-solid fa-bars"></i>
              </button>
+
              <ul class="menu" id="menu">
+                <!-- <button class="button-bars2 button-bars" id="button-bars2" >
+                    <i class="fa-solid fa-xmark"></i>
+                 </button> -->
+
                  <li class="menu-item">
                      <a href="#mis-habilidades" class="menu-item-link">Mis habilidades</a>
                  </li>
@@ -50,17 +61,19 @@
     <main class="main">
 
         <section class="section-principal">
-            <h1 class="card-tittle">
-                Hola <br> bienvenido
-            </h1>
+            
+            <div class="card-semiprincipal">
+                <h1 class="card-tittle">
+                    Hola <br> bienvenido
+                </h1>
+                
 
-            <!-- <figure>
-                <img src="./assets/images/imagen-3.jpg" alt="image-winter" class="image-winter">
-            </figure> -->
+                <figure>
+                    <img src="./assets/images/imagen-photo.jpg" alt="imagen-photo" class="imagen-personal">
+                </figure>
+            </div>
+            
 
-            <figure>
-                <img src="./assets/images/imagen-photo.jpg" alt="imagen-photo" class="imagen-personal">
-            </figure>
 
             <h2 class="Name-principal">
                 Wilber David <br> Durand Gonzales 
@@ -77,6 +90,8 @@
                 <i class="fa-solid fa-moon moon"></i>
             </div>
         </section>
+
+    </main>
 
         <section class="Card-habilidades" id="mis-habilidades">
             <h1 class="tittle-habilidades">Mis habilidades</h1>
@@ -96,7 +111,7 @@
                 </div>
                 <div class="card-icon-principal css">
                     <div class="icon-css">
-                        <a href="https://developer.mozilla.org/es/docs/Glossary/HTML5" class="rombo">
+                        <a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank" class="rombo">
                             <i class="fa-brands fa-css3-alt icon-technologies"></i>
                         </a>
                     </div>
@@ -105,7 +120,7 @@
 
                 <div class="card-icon-principal JavaScript">
                     <div class="icon-javascript">
-                        <a href="https://developer.mozilla.org/es/docs/Glossary/HTML5" class="rombo">
+                        <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank" class="rombo">
                             <i class="fa-brands fa-js icon-technologies"></i>
                         </a>
                     </div>
@@ -114,16 +129,34 @@
                 
                 <div class="card-icon-principal Github">
                     <div class="icon-github">
-                        <a href="https://developer.mozilla.org/es/docs/Glossary/HTML5" class="rombo">
+                        <a href="https://github.com/" target="_blank" class="rombo">
                             <i class="fa-brands fa-github icon-technologies"></i>
                         </a>
                     </div>
                     <p class="name-technologies">GITHUB</p>
                 </div>
+
+                <div class="card-icon-principal java">
+                    <div class="icon-java">
+                        <a href="https://www.java.com/es/about/whatis_java.jsp" target="_blank" class="rombo">
+                            <i class="fa-brands fa-java icon-technologies"></i>
+                        </a>
+                    </div>
+                    <p class="name-technologies">Java</p>
+                </div>
+
+                <div class="card-icon-principal figma">
+                    <div class="icon-figma">
+                        <a href="https://www.figma.com/" target="_blank" class="rombo">
+                            <i class="fa-brands fa-figma icon-technologies"></i>
+                        </a>
+                    </div>
+                    <p class="name-technologies">figma</p>
+                </div>
             </article>
         </section>
 
-        <section class="Trabajos">
+        <section class="Trabajos" id="trabajos">
             <h1 class="Tittle-trabajo">Mis trabajos</h1>
             <p class="description-trabajo">
                 He realizado diversos trabajos que me fueron útiles para poder  desarrollarme como developer,  he realizado trabajos individuales como colaborativos, en este apartado tendras los enlaces para visitar mi repositorio alojado en Git y poder visualizar a mas detalle mis trabajos.
@@ -132,7 +165,7 @@
 
         </section>
 
-        <section class="sobre-mi">
+        <section class="sobre-mi" id="sobremi">
             <h1 class="title-sobremi">Sobre mí</h1>
             <p class="description-sobremi">
                 Me gusta trabajar en equipo, aprender habilidades que otros dominan  y apoyarnos mutuamente,en mi formacion siempre me han inculcado el respeto y ser empático, evaluando todo ello, resalto mis habilidades blandas.
@@ -165,16 +198,24 @@
             </article>
         </section>
 
-    </main>
 
-    <footer class="card-contactame">
+
+    <footer class="card-contactame" id="contactame"">
         <h1 class="tittle-contactame">contáctame</h1>
         <p class="description-contactame">Si quieres comunicarte por alguna duda o por cual sea el motivo, no dudes en comunicarte conmigo, dejo  a disposición los medios para comunicarnos como tambien mis redes sociales  donde estare compatiendo momentos personales. </p>
         <div class="footer-icons">
-            <i class="fa-brands fa-whatsapp icons-contactame"></i>
-            <i class="fa-brands fa-youtube icons-contactame"></i>
-            <i class="fa-brands fa-github icons-contactame"></i>
-            <i class="fa-brands fa-facebook icons-contactame"></i>
+            <a href="https://www.youtube.com/channel/UCUeP1Cf7vteNhM-mpO_fK9A" target="_blank" class="icons-contactame">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="https://www.youtube.com/channel/UCUeP1Cf7vteNhM-mpO_fK9A" target="_blank" class="icons-contactame">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a href="https://github.com/DavidDG21" target="_blank" class="icons-contactame">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.youtube.com/channel/UCUeP1Cf7vteNhM-mpO_fK9A" target="_blank" class="icons-contactame">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
         </div>
 
         <div class="copy">
@@ -182,6 +223,10 @@
         </div>
     </footer>
     
+    <!-- importar la libreria online de las particulas -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    
 </body>
-    <script src="./assets/main.js"></script>
+
+    <script src="./assets/JavaScript/main.js"></script>
 </html>
