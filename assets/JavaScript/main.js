@@ -29,3 +29,12 @@ links.forEach(element => {
 particlesJS.load('particles-js', './assets/JavaScript/particles.json', function() {
 	console.log('callback - particles.js config loaded');
   });
+
+
+// para las animaciones
+gsap.from('.imagen-personal',{
+	duration: 3,
+	ease: "bounce.out",
+	y:-500,
+	delay:1,
+});  
